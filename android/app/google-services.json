@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "767252080955",
+    "project_id": "ispygameog",
+    "storage_bucket": "ispygameog.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767252080955:android:dc9dae942247ae1301af1e",
+        "android_client_info": {
+          "package_name": "com.example.i_spy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "767252080955-1ebe2c5fubfk9mksu2ei3hukia1g4qbi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDofpoTEcg_u4U1juJ4byWB125HJlYr8_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "767252080955-1ebe2c5fubfk9mksu2ei3hukia1g4qbi.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "767252080955-1v5lbolpvt362g8gsbgrdol6ghg6b5mc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.i_spy"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
