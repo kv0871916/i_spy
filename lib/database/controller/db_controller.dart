@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
@@ -59,11 +61,14 @@ class DBController extends ChangeNotifier {
         print('getAllUsers value $snap ');
       }
 
-      for (var element in snap.docs) {
+      for (var doc in snap.docs) {
         if (kDebugMode) {
-          print('getAllUsers docs $element');
+          print('getAllUsers docs $doc');
         }
-        Map<String, dynamic>? data = element.data() as Map<String, dynamic>?;
+        var data = json.decode(doc.data().toString());
+        if (kDebugMode) {
+          print('getAllUsers data $data');
+        }
         users.add(data?['username']);
       }
     });
